@@ -87,14 +87,6 @@ TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
 PLATFORM_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 99.99.99
 
-# Crypto
-TW_INCLUDE_CRYPTO := true
-
-TW_RECOVERY_ADDITIONAL_RELINK_FILES += \
-    $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/hw/android.hardware.keymaster@3.0-impl.so \
-    $(TARGET_OUT_VENDOR_EXECUTABLES)/hw/android.hardware.keymaster@3.0-service \
-    $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/libkeymaster3device.so \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libpuresoftkeymasterdevice.so
 
 # TWRP Configuration
 TW_THEME := portrait_mdpi
