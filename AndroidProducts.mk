@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_certus.mk
+    $(LOCAL_DIR)/omni_mdtab0801.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_certus-user \
-    omni_certus-userdebug \
-    omni_certus-eng
+    omni_mdtab0801-user \
+    omni_mdtab0801-userdebug \
+    omni-mdtab0801-eng
