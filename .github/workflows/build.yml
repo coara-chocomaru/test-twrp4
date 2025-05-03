@@ -8,7 +8,7 @@ on:
 env:
   MANIFEST_URL: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni'
   MANIFEST_BRANCH: 'twrp-9.0'
-  DEVICE_TREE_URL: 'https://github.com/coara-chocomaru/android_device_sts-tottori_a05bd'
+  DEVICE_TREE_URL: 'https://github.com/coara-chocomaru/smao-twrp/tree/main'
   DEVICE_TREE_BRANCH: 'main'
   DEVICE_PATH: 'device/h2/mdtab0801'
   DEVICE_NAME: 'mdtab0801'
