@@ -8,8 +8,8 @@
 
 set -e
 
-DEVICE=certus
-VENDOR=xiaomi
+DEVICE=mdtab0801
+VENDOR=h2
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
