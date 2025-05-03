@@ -7,6 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),certus)
+ifeq ($(TARGET_DEVICE),mdtab0801)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
