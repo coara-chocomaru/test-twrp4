@@ -9,7 +9,7 @@ DEVICE_PATH := device/h2/mdtab0801
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
-TARGET_BUILD_64BIT := true
+TARGET_BUILD_64BIT := false
 
 # Architecture
 ifeq ($(TARGET_BUILD_64BIT), true)
@@ -37,7 +37,7 @@ TARGET_CPU_VARIANT := cortex-a53
 TARGET_CPU_VARIANT_RUNTIME := cortex-a53
 endif # TARGET_BUILD_64BIT=true
 
-TARGET_USES_64_BIT_BINDER := true
+TARGET_USES_64_BIT_BINDER := false
 BOARD_SUPPRESS_SECURE_ERASE := true
 AB_OTA_UPDATER := false
 
