@@ -6,7 +6,8 @@
 #
 
 DEVICE_PATH := device/h2/mdtab0801
-
+TARGET_BUILD_64BIT := false
+TARGET_BUILD_32BIT := true
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 TARGET_ARCH := arm
