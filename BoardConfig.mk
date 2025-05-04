@@ -10,12 +10,12 @@ TARGET_BUILD_64BIT := false
 TARGET_BUILD_32BIT := true
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
-TARGET_ARCH := arm
-TARGET_ARCH_VARIANT := armv7-a-neon
-TARGET_CPU_VARIANT := cortex-a7
-TARGET_CPU_VARIANT_RUNTIME := cortex-a7
-TARGET_CPU_ABI := armeabi-v7a
-TARGET_CPU_ABI2 := armeabi
+TARGET_ARCH            := arm
+TARGET_ARCH_VARIANT    := armv7-a
+TARGET_CPU_VARIANT     := generic
+TARGET_CPU_ABI         := armeabi-v7a
+TARGET_CPU_ABI2  := armeabi
+TARGET_CPU_ABI_LIST    := armeabi-v7a
 TARGET_2ND_ARCH :=
 TARGET_2ND_CPU_ABI :=
 TARGET_2ND_CPU_ABI2 :=
@@ -26,7 +26,6 @@ TARGET_2ND_CPU_VARIANT_RUNTIME :=
 TARGET_SUPPORTS_64_BIT_APPS := false
 TARGET_IS_64_BIT := false
 TARGET_USES_64_BIT_BINDER := true
-BOARD_SUPPRESS_SECURE_ERASE := true
 AB_OTA_UPDATER := false
 
 # Bootloader
