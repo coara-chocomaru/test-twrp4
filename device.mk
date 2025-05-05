@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/H2/mdtab0801
+LOCAL_PATH := device/h2/mdtab0801
