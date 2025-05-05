@@ -63,9 +63,6 @@ TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo
 endif
 
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/
-TARGET_USES_PREBUILT_VENDOR_SEPOLICY := true
-TARGET_HAS_FUSEBLK_SEPOLICY_ON_VENDOR := true
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/recovery/root/init-binder.rc:recovery/root/init-binder.rc 
 # Partitions
