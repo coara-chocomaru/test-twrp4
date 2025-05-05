@@ -6,7 +6,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
-$(call inherit-product, device/H2/mdtab0801/device.mk)
+$(call inherit-product, device/h2/mdtab0801/device.mk)
 
 PRODUCT_DEVICE := mdtab0801
 PRODUCT_NAME := omni_mdtab0801
@@ -14,7 +14,7 @@ PRODUCT_BRAND := H2
 PRODUCT_MODEL := SMAO
 PRODUCT_MANUFACTURER := alps
 
-PRODUCT_GMS_CLIENTID_BASE := android-H2
+PRODUCT_GMS_CLIENTID_BASE := android-alps
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="MD-TAB0801-user 9 01.00.000 01.00.000 test-keys"
