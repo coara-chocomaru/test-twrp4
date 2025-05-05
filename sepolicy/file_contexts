@@ -1,3 +1,0 @@
-/dev/binder    u:object_r:binder_device:s0
-/dev/hwbinder  u:object_r:binder_device:s0
-/dev/vndbinder u:object_r:binder_device:s0
