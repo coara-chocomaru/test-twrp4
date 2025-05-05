@@ -9,7 +9,7 @@
 set -e
 
 DEVICE=mdtab0801
-VENDOR=H2
+VENDOR=h2
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
