@@ -5,7 +5,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/h2/mdtab0801
+DEVICE_PATH := device/H2/mdtab0801
+BOARD_VENDOR := H2
+BOARD_DEVICE := mdtab0801
+BOARD_HAS_NFC := false
+BOARD_USES_NFC := false
+TARGET_USES_NFC := false
+
 TARGET_BUILD_64BIT := false
 TARGET_BUILD_32BIT := true
 
@@ -109,6 +115,10 @@ PLATFORM_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 99.99.99
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
+
+PRODUCT_SOONG_NAMESPACES += vendor/H2/mdtab0801
+include vendor/H2/mdtab0801/BoardConfigVendor.mk
+BOARD_VNDK_VERSION := current
 
 # TWRP Configuration
 TW_THEME := portrait_mdpi
