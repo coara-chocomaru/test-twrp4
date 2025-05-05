@@ -1,0 +1,6 @@
+on early-init
+    mknod /dev/binder    c 10 62
+    mknod /dev/hwbinder  c 10 63
+    mknod /dev/vndbinder c 10 64
+    chmod 0660 /dev/*binder
+    chown system system /dev/*binder
