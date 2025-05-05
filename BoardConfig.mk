@@ -63,8 +63,6 @@ TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo
 endif
 
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/recovery/root/init-binder.rc:recovery/root/init-binder.rc 
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
