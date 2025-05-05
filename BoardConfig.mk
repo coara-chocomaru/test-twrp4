@@ -117,7 +117,6 @@ BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 
 PRODUCT_SOONG_NAMESPACES += vendor/h2/mdtab0801
-include vendor/h2/mdtab0801/BoardConfigVendor.mk
 BOARD_VNDK_VERSION := current
 
 # TWRP Configuration
