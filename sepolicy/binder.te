@@ -1,0 +1,3 @@
+policy_module(recovery_binder, 1.0)
+type binder_device, chrdev_type, file_type;
+allow recovery binder_device:chr_file { open read write getattr };
