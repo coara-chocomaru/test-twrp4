@@ -24,6 +24,7 @@ PRODUCT_PACKAGES -= CarrierConfig
 
 # Product characteristics
 PRODUCT_CHARACTERISTICS := tablet
+PRODUCT_PROPERTY_OVERRIDES += ro.radio.noril=true
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
