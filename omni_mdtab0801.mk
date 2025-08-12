@@ -4,7 +4,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/h2/mdtab0801/device.mk)
 
@@ -13,7 +13,10 @@ PRODUCT_NAME := omni_mdtab0801
 PRODUCT_BRAND := H2
 PRODUCT_MODEL := SMAO
 PRODUCT_MANUFACTURER := alps
-
+PRODUCT_DEFAULT_LANGUAGE := ja
+PRODUCT_DEFAULT_REGION   := JP
+PRODUCT_AAPT_CONFIG := mdpi
+PRODUCT_AAPT_PREF_CONFIG := mdpi
 PRODUCT_GMS_CLIENTID_BASE := android-alps
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
