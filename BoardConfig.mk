@@ -112,14 +112,11 @@ PLATFORM_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 99.99.99
 BOARD_AVB_ENABLE := true
 
-PRODUCT_SOONG_NAMESPACES += vendor/zechin/agpt05
+#PRODUCT_SOONG_NAMESPACES += vendor/zechin/agpt05
 
 TW_SKIP_COMPATIBILITY_CHECK := true
 TW_SUPPORT_INPUT_AIDL_HAPTICS := false
 TW_SUPPORT_INPUT_AIDL_HAPTICS_FIX_OFF := false
-
-　
-# TWRP Configuration
 TW_THEME := portrait_mdpi
 TW_DEFAULT_BRIGHTNESS := 120
 TW_BRIGHTNESS_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness
@@ -135,8 +132,6 @@ TW_CRYPTO_FS_TYPE := "ext4"
 TW_CRYPTO_REAL_BLKDEV := "/dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/userdata"
 TW_CRYPTO_MNT_POINT := "/data"
 TW_CRYPTO_FS_OPTIONS := "nosuid,nodev,noatime,discard,noauto_da_alloc,data=ordered"
-RECOVERY_TOUCHSCREEN_SWAP_XY := true
-RECOVERY_TOUCHSCREEN_FLIP_Y := true
 TW_EXTRA_LANGUAGES := false
 TW_DEFAULT_LANGUAGE := en-US
 TW_USE_INPUT_EVENTS := true
