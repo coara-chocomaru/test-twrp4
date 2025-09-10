@@ -8,10 +8,6 @@
 DEVICE_PATH := device/zechin/agpt05
 BOARD_VENDOR := zechin
 BOARD_DEVICE := agpt05
-BOARD_HAS_NFC := false
-BOARD_USES_NFC := false
-TARGET_USES_NFC := false
-TARGET_NO_TELEPHONY := true
 
 DEVICE_RESOLUTION := 960x480
 TARGET_SCREEN_HEIGHT := 480
@@ -25,7 +21,6 @@ MTK_HARDWARE := true
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
-
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_ABI := armeabi-v7a
@@ -46,7 +41,6 @@ TARGET_IS_32_BIT := true
 TARGET_SUPPORTS_32_BIT_APPS := true
 ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
-AB_OTA_UPDATER := false
 TARGET_RECOVERY_FSTAB := device/zechin/agpt05/recovery/root/etc/twrp.fstab
 
 # Bootloader
@@ -112,7 +106,6 @@ PLATFORM_VERSION := 99.99.99
 
 TW_SKIP_COMPATIBILITY_CHECK := true
 TW_SUPPORT_INPUT_AIDL_HAPTICS := false
-TW_SUPPORT_INPUT_AIDL_HAPTICS_FIX_OFF := false
 TW_THEME := portrait_mdpi
 TW_DEFAULT_BRIGHTNESS := 120
 TW_BRIGHTNESS_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness
