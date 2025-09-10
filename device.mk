@@ -5,15 +5,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/h2/mdtab0801
+LOCAL_PATH := device/zechin/agpt05
 
 # API levels
-PRODUCT_USE_DYNAMIC_PARTITIONS := false
-PRODUCT_BUILD_SUPER_PARTITION := false
-PRODUCT_TARGET_VNDK_VERSION := 28
-PRODUCT_EXTRA_VNDK_VERSIONS := 27
-PRODUCT_SHIPPING_API_LEVEL := 27
-PRODUCT_FIRST_API_LEVEL := 27
+PRODUCT_FIRST_API_LEVEL := 23
 
 PRODUCT_PACKAGES -= TeleService
 PRODUCT_PACKAGES -= CellBroadcastReceiver
@@ -23,7 +18,7 @@ PRODUCT_PACKAGES -= CarrierConfig
 
 
 # Product characteristics
-PRODUCT_CHARACTERISTICS := tablet
+PRODUCT_CHARACTERISTICS := phone
 PRODUCT_PROPERTY_OVERRIDES += ro.radio.noril=true
 
 PRODUCT_PACKAGES += \
@@ -32,12 +27,6 @@ PRODUCT_PACKAGES += \
 　　 update_engine \
     update_verifier \
     update_engine_sideload
-
-# Health
-PRODUCT_PACKAGES += \
-    android.hardware.health@2.0-impl \
-    android.hardware.health@2.0-impl.recovery \
-    android.hardware.health@2.0-service
 
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
