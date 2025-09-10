@@ -145,6 +145,9 @@ TW_EXCLUDE_TWRPAPP := true
 TW_NO_BATT_PERCENT := false
 TW_NO_USB_STORAGE := false
 TW_HAS_MTP := false
+TW_CUSTOM_THEME := false
+
+
 TW_NO_EXFAT_FUSE := false
 TW_EXCLUDE_BASH := true
 TW_EXCLUDE_NANO := true
