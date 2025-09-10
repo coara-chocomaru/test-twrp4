@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_mdtab0801.mk
+    $(LOCAL_DIR)/omni_agpt05.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_mdtab0801_a64-user \
-    omni_mdtab0801_a64-userdebug \
-    omni-mdtab0801_a64-eng
+    omni_agpt05_32-user \
+    omni_agpt05_32-userdebug \
+    omni-agpt05_32-eng
