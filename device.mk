@@ -14,12 +14,5 @@ PRODUCT_FIRST_API_LEVEL := 23
 PRODUCT_CHARACTERISTICS := phone
 PRODUCT_PROPERTY_OVERRIDES += ro.radio.noril=true
 
-PRODUCT_PACKAGES += \
-    otapreopt_script \
-    cppreopts.sh \
-　　 update_engine \
-    update_verifier \
-    update_engine_sideload
-
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
