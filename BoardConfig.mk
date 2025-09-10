@@ -49,6 +49,7 @@ TARGET_SUPPORTS_32_BIT_APPS := true
 ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
 AB_OTA_UPDATER := false
+TARGET_RECOVERY_FSTAB := device/zechin/agpt05/recovery/root/etc/twrp.fstab
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := mt6580
