@@ -6,13 +6,3 @@
 #
 
 LOCAL_PATH := device/zechin/agpt05
-
-# API levels
-PRODUCT_FIRST_API_LEVEL := 23
-
-# Product characteristics
-PRODUCT_CHARACTERISTICS := phone
-PRODUCT_PROPERTY_OVERRIDES += ro.radio.noril=true
-
-PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
