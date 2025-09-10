@@ -10,13 +10,6 @@ LOCAL_PATH := device/zechin/agpt05
 # API levels
 PRODUCT_FIRST_API_LEVEL := 23
 
-PRODUCT_PACKAGES -= TeleService
-PRODUCT_PACKAGES -= CellBroadcastReceiver
-PRODUCT_PACKAGES -= MmsService
-PRODUCT_PACKAGES -= Stk
-PRODUCT_PACKAGES -= CarrierConfig
-
-
 # Product characteristics
 PRODUCT_CHARACTERISTICS := phone
 PRODUCT_PROPERTY_OVERRIDES += ro.radio.noril=true
