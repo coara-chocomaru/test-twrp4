@@ -8,8 +8,8 @@
 
 set -e
 
-DEVICE=mdtab0801
-VENDOR=h2
+DEVICE=agpt05
+VENDOR=zechin
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
