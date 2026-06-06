@@ -14,12 +14,6 @@ TARGET_BUILD_32BIT := true
 BOARD_USES_MTK_HARDWARE := true
 BOARD_HAS_MTK_HARDWARE := true
 MTK_HARDWARE := true
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.product.model=AGP-T05 \
-    ro.product.brand=AGP \
-    ro.product.name=AGP-T05 \
-    ro.product.phone.model=AGP-T05 \
-    ro.lxt.custom.model=AGP-T05
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -122,7 +116,7 @@ TW_DEFAULT_LANGUAGE := ja
 TW_USE_INPUT_EVENTS := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_SCREEN_BLANK_ON_BOOT := true
-TW_NO_SCREEN_TIMEOUT := true
+TW_NO_SCREEN_TIMEOUT := false
 TW_USE_TOOLBOX := true
 TW_NO_FASTBOOT_BOOT := false
 TW_NO_HAPTICS := true
