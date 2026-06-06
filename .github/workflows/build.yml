@@ -108,6 +108,12 @@ jobs:
         sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 1
       continue-on-error: true
 
+    - name: Remove unused language files
+      run: |
+             cd workspace
+             find bootable/recovery/gui/theme/common/languages/ \
+             -name "*.xml" ! -name "ja.xml" ! -name "en.xml" -delete
+
     - name: Building recovery
       run: |
         source build/envsetup.sh
