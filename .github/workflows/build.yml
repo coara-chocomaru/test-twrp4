@@ -7,7 +7,7 @@ on:
 env:
   MANIFEST_URL: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni'
   MANIFEST_BRANCH: 'twrp-6.0'
-  DEVICE_TREE_URL: 'https://github.com/coara-chocomaru/test-twrp4'
+  DEVICE_TREE_URL: 'https://github.com/coara-chocomaru/AGP-T05-twrp'
   DEVICE_TREE_BRANCH: 'main'
   DEVICE_PATH: 'device/zechin/agpt05'
   DEVICE_NAME: 'agpt05'
